@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Multi Level Menu</title>
+	<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+	<script src="../js/modernizr-2.6.2.min.js"></script>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+	<div class="menu-container">
+		<div class="mp-pusher" id="mp-pusher">
+
+			<nav id="mp-menu" class="mp-menu">
+			<div class="mp-level">
+				<h2 class="fafa fafa-home"><span class="title-icon-text home"><a href="../index.html">International Community School</a></span></h2>      
+                <ul>
+                    <li>
+                        <a class="fa fa-home" href="../index.html"><span class="title-icon-text">Home</span></a>
+                    </li>
+                    <li class="fa fa-angle-left">
+                        <a class="fa fa-users" href="#"><span class="title-icon-text">Teachers</span></a>
+             
+                        <div class="mp-level">
+                            <h2 class="fafa fafa-users"><span class="title-icon-text"><a href="#">Teachers</a></span></h2>
+                            <a class="mp-back" href="#">back</a>
+                            <ul>
+                                <li><a href="austin.html">Mrs. Austin</a></li>
+                                <li><a href="bach.html">Mr. Bach</a></li>
+                                <li><a href="britten.html">Mrs. Britten</a></li>
+                                <li><a href="castaneda.html">Mrs. Castañeda</a></li>
+                                <li><a href="comeau.html">Mrs. Comeau</a></li>
+                                <li><a href="connors.html">Mrs. Connors</a></li>
+                                <li><a href="di-tolla.html">Mrs. Di-Tolla</a></li>
+                                <li><a href="elliott.html">Mr. Elliott</a></li>
+                                <li><a href="ensign.html">Mr. Ensign</a></li>
+                                <li><a href="garman.html">Mrs. Garman</a></li>
+                                <li><a href="gibson.html">Mr. Gibson</a></li>
+                                <li><a href="haley.html">Mrs. Haley</a></li>
+                                <li><a href="henry.html">Mrs. Henry</a></li>
+                                <li><a href="livingston.html">Dr. Livingston</a></li>
+                                <li><a href="mcfaul.html">Mr. McFaul</a></li>
+                                <li><a href="miranda.html">Mrs. Miranda</a></li>
+                                <li><a href="moore.html">Mr. Moore</a></li>
+                                <li><a href="nelson.html">Mrs. Nelson</a></li>
+                                <li><a href="over.html">Mr. Over</a></li>
+                                <li><a href="packer.html">Ms. Packer</a></li>
+                                <li><a href="peterson.html">Mrs. Peterson</a></li>
+                                <li><a href="plank.html">Mr. Plank</a></li>
+                                <li><a href="radyer.html">Mr. Rayder</a></li>
+                                <li><a href="sharma.html">Dr. Sharma</a></li>
+                                <li><a href="sullivan.html">Mrs. Sullivan</a></li>
+                                <li><a href="vanwaardhuizen.html">Mrs. Van Waardhuizen</a></li>
+                                <li><a href="vasiliauskas.html">Mrs. Vasiliauskas</a></li>
+                                <li><a href="windard.html">Mrs. Winard</a></li>  
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="fa fa-angle-left">
+                        <a class="fa fa-pencil" href="#"><span class="title-icon-text">Clubs</span></a>
+             
+                        <div class="mp-level">
+                            <h2 class="fafa fafa-pencil"><span class="title-icon-text"><a href="#">Clubs</a></span></h2>
+                            <a class="mp-back" href="#">back</a>
+                            <ul>
+                                <li><a href="#">ASB</a></li>
+                                <li><a href="#">FBLA</a></li>
+                                <li><a href="#">Key Club</a></li>
+                                <li><a href="#">Mock Trial</a></li>
+                                <li><a href="#">MUN</a></li>
+                                <li><a href="#">NHS</a></li>
+                                <li><a href="#">SNHS</a></li>
+                                <li><a href="#">Drama</a></li>
+                                <li><a href="#">Ensemble</a></li>
+                                <li><a href="#">Choir</a></li>
+                                <li><a href="#">Taste of ICS</a></li>
+                                <li><a href="#">Environmental Club</a></li>
+                                <li><a href="#">Tech Crew</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="fa fa-calendar" href="../calendar.html"><span class="title-icon-text">Calendar</span></a>
+                    </li>
+<!--
+                    <li>
+                        <a class="fa fa-check-square-o" href="standardscore.html"><span class="title-icon-text">StandardScore</span></a>
+                    </li>
+-->
+                     <li>
+                        <a class="fa fa-info" href="../contact.html"><span class="title-icon-text contact">Contact</span></a>
+                    </li>
+<!--
+                    <li>
+                        <a class="fa fa-user" href="#"><span class="title-icon-text">Login</span></a>
+                    </li>
+-->
+                </ul>
+			</div>
+			</nav>
+
+			<div class="scroller">
+				<div class="scroller-inner">
+				<!-- site content -->
+                    <div class="content">
+                        <header class="header-box">
+                            <a href="#" id="trigger" class="menu-trigger"></a>
+                            <h1>Dr. Livingston</h1>
+                        </header>
+                    </div>
+				</div>
+			</div>
+		</div> <!-- /pusher -->
+	</div> <!-- /container -->
+	<script src="../js/classie.js"></script>
+	<script src="../js/mlpushmenu.js"></script>
+	<script>
+		new mlPushMenu( document.getElementById( 'mp-menu'), document.getElementById( 'trigger'), {
+				type: 'cover'
+		} );
+	</script>
+</body>
+</html>
